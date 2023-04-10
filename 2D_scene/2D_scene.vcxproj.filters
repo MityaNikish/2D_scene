@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{ad8c4951-f8ce-4343-b2e6-16d5c33968c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Init_field">
+      <UniqueIdentifier>{bad20ddd-f4cd-437f-bed1-dfdb842b1261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Init_field\Parameters">
+      <UniqueIdentifier>{ae9eeff4-de1a-4372-ba94-a940f5c10f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{684a0392-5d27-4735-9e35-f79e3d136381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\ElemList">
+      <UniqueIdentifier>{0f6406af-a5aa-4890-9dec-3d8362f23e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{442ee17c-8d69-48b4-80ab-98a13218570c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{202d6c1d-43c3-4555-8cbd-3fb777ceeec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{b0378845-1327-4cc7-b9ba-70992b7ab86d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="new.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="init_field.h">
+      <Filter>Init_field</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="elemlist.h">
+      <Filter>Parser\ElemList</Filter>
+    </ClInclude>
+    <ClInclude Include="creator.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="creator_shape.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="hline.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="vline.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="new.c">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.c">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="console.c">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="init_field.c">
+      <Filter>Init_field</Filter>
+    </ClCompile>
+    <ClCompile Include="parameters.c">
+      <Filter>Init_field\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="elemlist.c">
+      <Filter>Parser\ElemList</Filter>
+    </ClCompile>
+    <ClCompile Include="creator.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="creator_point.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="creator_rect.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="creator_hline.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="creator_vline.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="hline.c">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="point.c">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="rect.c">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="vline.c">
+      <Filter>Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="parameters.h">
+      <Filter>Init_field\Parameters</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+point 1 2
+
+rect 1 2 3 4
+hline 10 10 20
+vline 30 30 40
+
+
+ rect 60 3 100 15
+ rect 70 15 78 30
+   rect 82 15 90 30
+ rect 40 5 60 7
+ rect 100 5 120 7
+ rect 75 1 85 3
+
+
+
+ 
+      
+
+
+hline 120 130 6
+vline 3 20 125
